@@ -1,7 +1,5 @@
-let arr = [333, 555, 666, 777];
+const randomNumber = Math.floor(Math.random() * (1943 - 633 + 1)) + 633;
 
-const randomIndex = Math.floor(Math.random() * arr.length);
+const number = document.querySelector('#number');
 
-const res = arr[randomIndex];
-
-number.innerHTML = res;
+number.innerHTML = randomNumber;
